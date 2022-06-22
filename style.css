@@ -1,1 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
 
+}
+
+.hero-image {
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
