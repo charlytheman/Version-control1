@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    height: 100%;
 
 }
 
@@ -11,5 +10,38 @@
     background-image: url("hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
 
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation li {
+    margin: 9px;
+    font-size: 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li a:hover,
+.navigation li a:visited {
+    color: orange;
+}
+
+.hero-image>h1,
+.hero-image>p {
+    text-align: center;
+    font-size: 30px;
+    top: 25%;
+    left: 30%;
+    position: relative;
+    background-color: white;
+    width: 40%;
 }
